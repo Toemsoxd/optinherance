@@ -4,7 +4,7 @@ body{margin:0;background:#111;color:#fff;font-family:Arial,Helvetica,sans-serif;
 button,a{font:inherit}
 .screen{min-height:100vh;position:relative;overflow:hidden;background:#111}
 .panorama{position:fixed;inset:0;overflow:hidden;z-index:0;background:#111}
-.panorama-track{position:absolute;top:0;left:0;height:100%;width:200%;display:flex;animation:tu12-panorama 70s linear infinite}
+.panorama-track{position:absolute;top:0;left:0;height:100%;width:200%;display:flex;animation:tu12-panorama 35s linear infinite}
 .panorama-track img{display:block;flex:0 0 50%;width:50%;height:100%;min-width:100vw;object-fit:cover;object-position:center;max-width:none}
 @keyframes tu12-panorama{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .panorama-shade{position:fixed;inset:0;z-index:1;pointer-events:none;background:linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.52)),linear-gradient(90deg,rgba(0,0,0,.16),transparent 35%,transparent 65%,rgba(0,0,0,.16))}
@@ -46,3 +46,6 @@ main{position:relative;z-index:2;width:min(1120px,94vw);margin:auto}
 footer{position:relative;z-index:2;margin-top:6vh;padding:15px 5vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;background:rgba(15,15,15,.85);border-top:2px solid #444;color:#aaa;font-size:10px}
 @media(max-width:780px){.port-browser{grid-template-columns:1fr}.port-list{border-right:0;border-bottom:2px solid #111}.port-preview{padding:22px 0 10px}.about-content{grid-template-columns:1fr}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-width:100%;max-height:120px}}
 @media(max-width:520px){.title-screen{padding-top:3vh}.logo{max-height:150px}.subtitle-art{width:min(360px,70vw)}.menu-button{min-width:100%;font-size:12px}.legacy-panel{padding:12px}.section-heading-art{max-height:70px}.port-title{font-size:12px}.port-meta{font-size:9px}.about-art{grid-template-columns:1fr;max-width:100%}.about-art img{max-height:110px}footer{font-size:8px}}
+.about-discord{display:block;line-height:0;max-width:125px;cursor:pointer}
+.about-discord img{width:100%;max-width:125px!important}
+.about-discord:hover{filter:brightness(1.12)}

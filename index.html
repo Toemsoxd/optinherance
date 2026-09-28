@@ -10,49 +10,100 @@
 <body>
 <div class="screen">
   <div class="panorama" aria-hidden="true">
-    <div class="panorama-track">
-      <img src="pixil-frame-0 (53).png"><img src="pixil-frame-0 (55).png"><img src="pixil-frame-0 (56).png"><img src="pixil-frame-0 (53).png">
-    </div>
+    <img src="TU12_Panorama_Background_S.png" alt="">
   </div>
   <div class="panorama-shade" aria-hidden="true"></div>
+
   <header class="title-screen">
     <img class="logo" src="title.png" alt="OptiCraft: Another Inheritance">
     <img class="subtitle-art" src="minecraft-text (7).png" alt="">
   </header>
+
   <main>
     <section class="legacy-menu" id="home">
       <button class="menu-button selected" data-open="ports">PLAY / BROWSE PORTS</button>
-      <button class="menu-button" data-open="about">ABOUT ANOTHER INHERITANCE</button>
+      <button class="menu-button" data-open="about">ABOUT US</button>
       <a class="menu-button" href="https://github.com/Toemsoxd/optinherance" target="_blank" rel="noreferrer">GITHUB</a>
     </section>
+
     <section class="legacy-panel" id="ports">
-      <div class="panel-heading"><h1>SELECT A PORT</h1><span>OPTICRAFT HERITAGE</span></div>
+      <div class="panel-heading">
+        <img class="section-heading-art" src="minecraft-text (8).png" alt="Ports">
+      </div>
+
       <div class="port-browser">
         <div class="port-list">
-          <button class="port-entry active" data-port="dsi"><span class="port-title">OptiCraft Heritage — DSi</span><span class="port-meta">Nintendo DSi · Homebrew</span></button>
-          <button class="port-entry" data-port="3ds"><span class="port-title">OptiCraft Heritage — 3DS</span><span class="port-meta">Nintendo 3DS · Homebrew</span></button>
-          <button class="port-entry" data-port="ps2"><span class="port-title">OptiCraft Heritage — PS2 Enhanced</span><span class="port-meta">PlayStation 2 · Enhanced build</span></button>
+          <button class="port-entry active" data-port="dsi">
+            <span class="port-title">OptiCraft Heritage — DSi</span>
+            <span class="port-meta">Nintendo DSi · Homebrew</span>
+          </button>
+          <button class="port-entry" data-port="3ds">
+            <span class="port-title">OptiCraft Heritage — 3DS</span>
+            <span class="port-meta">Nintendo 3DS · Homebrew</span>
+          </button>
+          <button class="port-entry" data-port="ps2">
+            <span class="port-title">OptiCraft Heritage — PS2 Enhanced</span>
+            <span class="port-meta">PlayStation 2 · Enhanced build</span>
+          </button>
         </div>
+
         <div class="port-preview">
-          <article class="port-view active" id="view-dsi"><img class="port-main-image" src="minecraft-text (7).png" alt="Nintendo DSi OptiCraft port"><div class="port-info"><h2>Nintendo DSi</h2><p>Unofficial OptiCraft Heritage port for Nintendo DSi hardware.</p><a class="legacy-button" href="https://github.com/Danielpro9/Opticraftheritage-Dsi-port" target="_blank" rel="noreferrer">VIEW PROJECT</a></div></article>
-          <article class="port-view" id="view-3ds"><img class="port-main-image" src="minecraft-text (8).png" alt="Nintendo 3DS OptiCraft port"><div class="port-info"><h2>Nintendo 3DS</h2><p>Unofficial OptiCraft Heritage port targeting Nintendo 3DS.</p><a class="legacy-button" href="https://github.com/Toemsoxd/optinherance/issues" target="_blank" rel="noreferrer">PROJECT INFO</a></div></article>
-          <article class="port-view" id="view-ps2"><img class="port-main-image" src="minecraft-text (9).png" alt="Enhanced PlayStation 2 OptiCraft port"><div class="port-info"><h2>PlayStation 2 — Enhanced</h2><p>An improved OptiCraft Heritage build for the original PlayStation 2.</p><a class="legacy-button" href="https://github.com/Toemsoxd/optinherance" target="_blank" rel="noreferrer">ARCHIVE</a></div></article>
+          <article class="port-view active" id="view-dsi">
+            <div class="port-info">
+              <h2>Nintendo DSi</h2>
+              <p>Unofficial OptiCraft Heritage port for Nintendo DSi hardware.</p>
+              <a class="legacy-button" href="https://github.com/Danielpro9/Opticraftheritage-Dsi-port" target="_blank" rel="noreferrer">VIEW PROJECT</a>
+            </div>
+          </article>
+
+          <article class="port-view" id="view-3ds">
+            <div class="port-info">
+              <h2>Nintendo 3DS</h2>
+              <p>Unofficial OptiCraft Heritage port targeting Nintendo 3DS.</p>
+              <a class="legacy-button" href="https://github.com/Toemsoxd/optinherance/issues" target="_blank" rel="noreferrer">PROJECT INFO</a>
+            </div>
+          </article>
+
+          <article class="port-view" id="view-ps2">
+            <div class="port-info">
+              <h2>PlayStation 2 — Enhanced</h2>
+              <p>An improved OptiCraft Heritage build for the original PlayStation 2.</p>
+              <a class="legacy-button" href="https://github.com/Toemsoxd/optinherance" target="_blank" rel="noreferrer">ARCHIVE</a>
+            </div>
+          </article>
         </div>
       </div>
-      <div class="asset-gallery" aria-label="Archive artwork">
-        <img src="minecraft-text.png" alt=""><img src="minecraft-text (1).png" alt=""><img src="minecraft-text (4).png" alt=""><img src="minecraft-text (10).png" alt=""><img src="minecraft-text (12).png" alt=""><img src="minecraft-text (13).png" alt="">
-      </div>
-      <div class="controls"><span>▲ ▼</span> SELECT <span>ENTER</span> OPEN &nbsp; <span>ESC</span> BACK</div>
+
+      <div class="controls"><span>▲ ▼</span> SELECT &nbsp; <span>ENTER</span> OPEN &nbsp; <span>ESC</span> BACK</div>
     </section>
+
     <section class="legacy-panel about-panel" id="about">
-      <div class="panel-heading"><h1>ANOTHER INHERITANCE</h1><span>ABOUT</span></div>
-      <p>This is a community archive for unofficial ports and builds of OptiCraft Heritage.</p>
-      <p>Currently documented here are the Nintendo DSi port, the Nintendo 3DS port, and the enhanced PlayStation 2 build.</p>
-      <p class="muted">This project is not an official Minecraft or OptiCraft Heritage release.</p>
+      <div class="panel-heading">
+        <img class="section-heading-art about-heading-art" src="minecraft-text (9).png" alt="About Us">
+      </div>
+
+      <div class="about-content">
+        <div class="about-copy">
+          <p>OptiCraft: Another Inheritance is a community archive dedicated to unofficial ports and builds of OptiCraft Heritage.</p>
+          <p>It exists to document the different ways the project has been brought to hardware that was never officially supported.</p>
+          <p>Currently documented here are the Nintendo DSi port, the Nintendo 3DS port, and the enhanced PlayStation 2 build.</p>
+          <p class="muted">This is an unofficial community project and is not an official Minecraft or OptiCraft Heritage release.</p>
+        </div>
+
+        <div class="about-art">
+          <img src="minecraft-text (10).png" alt="">
+          <img src="minecraft-text (12).png" alt="">
+        </div>
+      </div>
+
       <button class="legacy-button back-home">BACK</button>
     </section>
   </main>
-  <footer><span>OptiCraft: Another Inheritance</span><span>UNOFFICIAL COMMUNITY PROJECT</span></footer>
+
+  <footer>
+    <span>OptiCraft: Another Inheritance</span>
+    <span>UNOFFICIAL COMMUNITY PROJECT</span>
+  </footer>
 </div>
 <script src="script.js"></script>
 </body>

@@ -39,12 +39,12 @@ main{position:relative;z-index:2;width:min(1120px,94vw);margin:auto}
 .controls span{color:#fff;font-weight:900}
 .about-panel{max-width:900px;margin:0 auto 40px}
 .about-content{display:flex;justify-content:center;align-items:center;padding:20px 10px;max-width:100%;overflow:hidden}
-.about-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;justify-items:center;gap:12px;min-width:0;max-width:280px;overflow:hidden}
-.about-art img{display:block;width:100%;max-width:125px;height:auto;max-height:125px;object-fit:contain;filter:drop-shadow(4px 4px 0 rgba(0,0,0,.65))}
+.about-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;justify-items:center;gap:18px;min-width:0;max-width:560px;overflow:hidden}
+.about-art img{display:block;width:auto;max-width:100%;height:auto;max-height:125px;object-fit:contain;filter:drop-shadow(4px 4px 0 rgba(0,0,0,.65))}
 .about-panel>.legacy-button{max-width:250px;margin:10px auto 0}
 footer{position:relative;z-index:2;margin-top:6vh;padding:15px 5vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;background:rgba(15,15,15,.85);border-top:2px solid #444;color:#aaa;font-size:10px}
-@media(max-width:780px){.port-browser{grid-template-columns:1fr}.port-list{border-right:0;border-bottom:2px solid #111}.port-preview{padding:22px 0 10px}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-width:100%;max-height:120px}}
+@media(max-width:780px){.port-browser{grid-template-columns:1fr}.port-list{border-right:0;border-bottom:2px solid #111}.port-preview{padding:22px 0 10px}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-width:100%;max-height:120px}.about-discord{max-width:100%}.about-discord img{max-width:100%!important}}
 @media(max-width:520px){.title-screen{padding-top:3vh}.logo{max-height:150px}.subtitle-art{width:min(360px,70vw)}.menu-button{min-width:100%;font-size:12px}.legacy-panel{padding:12px}.section-heading-art{max-height:70px}.port-title{font-size:12px}.port-meta{font-size:9px}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-height:110px}footer{font-size:8px}}
-.about-discord{display:block;line-height:0;max-width:125px;cursor:pointer}
-.about-discord img{width:100%;max-width:125px!important}
+.about-discord{display:block;line-height:0;max-width:260px;cursor:pointer}
+.about-discord img{width:100%;max-width:260px!important}
 .about-discord:hover{filter:brightness(1.12)}

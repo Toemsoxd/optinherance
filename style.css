@@ -1,6 +1,7 @@
+@font-face{font-family:Minecraft;src:url("Minecraft-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:#111;color:#fff;font-family:Arial,Helvetica,sans-serif;image-rendering:pixelated}
+body{margin:0;background:#111;color:#fff;font-family:Minecraft,Arial,Helvetica,sans-serif;image-rendering:pixelated}
 button,a{font:inherit}
 .screen{min-height:100vh;position:relative;overflow:hidden;background:#111}
 .panorama{position:fixed;inset:0;overflow:hidden;z-index:0;background:#111}
@@ -37,15 +38,13 @@ main{position:relative;z-index:2;width:min(1120px,94vw);margin:auto}
 .controls{margin-top:12px;padding-top:10px;border-top:2px solid #111;color:#aaa;font-size:10px;text-align:right}
 .controls span{color:#fff;font-weight:900}
 .about-panel{max-width:900px;margin:0 auto 40px}
-.about-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,280px);gap:24px;align-items:center;padding:20px 10px;max-width:100%;overflow:hidden}
-.about-copy p{max-width:720px;margin:18px auto;line-height:1.65;color:#ddd}
+.about-content{display:flex;justify-content:center;align-items:center;padding:20px 10px;max-width:100%;overflow:hidden}
 .about-art{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;justify-items:center;gap:12px;min-width:0;max-width:280px;overflow:hidden}
 .about-art img{display:block;width:100%;max-width:125px;height:auto;max-height:125px;object-fit:contain;filter:drop-shadow(4px 4px 0 rgba(0,0,0,.65))}
 .about-panel>.legacy-button{max-width:250px;margin:10px auto 0}
-.muted{color:#999!important}
 footer{position:relative;z-index:2;margin-top:6vh;padding:15px 5vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;background:rgba(15,15,15,.85);border-top:2px solid #444;color:#aaa;font-size:10px}
-@media(max-width:780px){.port-browser{grid-template-columns:1fr}.port-list{border-right:0;border-bottom:2px solid #111}.port-preview{padding:22px 0 10px}.about-content{grid-template-columns:1fr}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-width:100%;max-height:120px}}
-@media(max-width:520px){.title-screen{padding-top:3vh}.logo{max-height:150px}.subtitle-art{width:min(360px,70vw)}.menu-button{min-width:100%;font-size:12px}.legacy-panel{padding:12px}.section-heading-art{max-height:70px}.port-title{font-size:12px}.port-meta{font-size:9px}.about-art{grid-template-columns:1fr;max-width:100%}.about-art img{max-height:110px}footer{font-size:8px}}
+@media(max-width:780px){.port-browser{grid-template-columns:1fr}.port-list{border-right:0;border-bottom:2px solid #111}.port-preview{padding:22px 0 10px}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-width:100%;max-height:120px}}
+@media(max-width:520px){.title-screen{padding-top:3vh}.logo{max-height:150px}.subtitle-art{width:min(360px,70vw)}.menu-button{min-width:100%;font-size:12px}.legacy-panel{padding:12px}.section-heading-art{max-height:70px}.port-title{font-size:12px}.port-meta{font-size:9px}.about-art{grid-template-columns:minmax(0,1fr) minmax(0,1fr);max-width:100%}.about-art img{max-height:110px}footer{font-size:8px}}
 .about-discord{display:block;line-height:0;max-width:125px;cursor:pointer}
 .about-discord img{width:100%;max-width:125px!important}
 .about-discord:hover{filter:brightness(1.12)}

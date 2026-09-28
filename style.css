@@ -3,7 +3,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:#111;color:#fff;font-family:Minecraft,Arial,Helvetica,sans-serif;image-rendering:pixelated}
 button,a{font:inherit;font-family:Minecraft,Arial,Helvetica,sans-serif}
-.screen{min-height:100vh;position:relative;overflow:hidden;background:#111;padding-bottom:52px}
+.screen{min-height:100vh;position:relative;background:#111;padding-bottom:60px}
 .panorama{position:fixed;inset:0;overflow:hidden;z-index:0;background:#111}
 .panorama-track{position:absolute;top:0;left:0;height:100%;width:200%;display:flex;animation:tu12-panorama 35s linear infinite}
 .panorama-track img{display:block;flex:0 0 50%;width:50%;height:100%;min-width:100vw;object-fit:cover;object-position:center;max-width:none}.panorama-track img:nth-child(2){transform:scaleX(-1)}
@@ -42,7 +42,7 @@ main{position:relative;z-index:2;width:min(1120px,94vw);margin:auto}
 .about-art{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-width:0;max-width:100%;overflow:hidden}
 .about-art img{display:block;width:auto;max-width:100%;height:auto;max-height:none;object-fit:contain;filter:drop-shadow(4px 4px 0 rgba(0,0,0,.65))}
 .about-panel>.legacy-button{max-width:250px;margin:10px auto 0}
-footer{position:fixed;left:0;right:0;bottom:0;z-index:3;margin:0;padding:15px 5vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;background:rgba(15,15,15,.85);border-top:2px solid #444;color:#aaa;font-size:10px}
+.fixed-footer{position:fixed;left:0;right:0;bottom:0;z-index:3;margin:0;padding:15px 5vw;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;background:rgba(15,15,15,.85);border-top:2px solid #444;color:#aaa;font-size:10px}
 @media(max-width:780px){.port-browser{grid-template-columns:1fr}.port-list{border-right:0;border-bottom:2px solid #111}.port-preview{padding:22px 0 10px}.about-art{max-width:100%}.about-art img{max-width:100%}.about-discord{max-width:100%}.about-discord img{max-width:100%!important}}
 @media(max-width:520px){.title-screen{padding-top:3vh}.logo{max-height:150px}.subtitle-art{width:min(360px,70vw)}.menu-button{min-width:100%;font-size:12px}.legacy-panel{padding:12px}.section-heading-art{max-height:70px}.port-title{font-size:12px}.port-meta{font-size:9px}footer{font-size:8px}}
 .about-discord{display:block;line-height:0;max-width:100%;cursor:pointer}

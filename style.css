@@ -48,3 +48,10 @@ footer{position:relative;z-index:2;margin-top:6vh;padding:15px 5vw;display:flex;
 .about-discord{display:block;line-height:0;max-width:100%;cursor:pointer}
 .about-discord img{width:auto;max-width:100%!important}
 .about-discord:hover{filter:brightness(1.12)}
+.about-content{display:flex;justify-content:center;align-items:center;padding:24px 20px;max-width:100%;overflow:hidden}
+.about-copy{width:min(760px,100%);margin:0 auto;text-align:center}
+.about-copy p{margin:0 0 18px;font-size:18px;line-height:1.6;color:#fff;text-shadow:2px 2px #222}
+.about-copy p:last-child{margin-bottom:0}
+.discord-link{color:#55aaff;text-decoration:underline;text-shadow:2px 2px #222}
+.discord-link:hover{color:#7fc0ff}
+@media(max-width:520px){.about-copy p{font-size:15px;line-height:1.5}}

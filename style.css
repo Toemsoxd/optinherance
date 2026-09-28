@@ -2,7 +2,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:#111;color:#fff;font-family:Minecraft,Arial,Helvetica,sans-serif;image-rendering:pixelated}
-button,a{font:inherit}
+button,a{font:inherit;font-family:Minecraft,Arial,Helvetica,sans-serif}
 .screen{min-height:100vh;position:relative;overflow:hidden;background:#111}
 .panorama{position:fixed;inset:0;overflow:hidden;z-index:0;background:#111}
 .panorama-track{position:absolute;top:0;left:0;height:100%;width:200%;display:flex;animation:tu12-panorama 35s linear infinite}
